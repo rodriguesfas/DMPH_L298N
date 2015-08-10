@@ -42,6 +42,10 @@ motor.('a', 100);
 motor.desligar();
 ```
 
+## Exemplo
+Veja um exemplo de como tudo fica mais simples e enxuto:
+https://github.com/rodriguesfas/DMPH_L298N/blob/master/examples/DMPH_L298N_Simples/DMPH_L298N_Simples.ino
+
 ## Dicas e avisos
 
 ## Referência Biblioteca
