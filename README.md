@@ -36,7 +36,7 @@ DMPH motor(2, 4, 3);
 motor.ligar('h', 100);
 
 // liga motor com passagem de parâmetro 'a' -> Sentido da rotação antioraria e 100 -> valor da velocidade de rotação.
-motor.('a', 100);
+motor.ligar('a', 100);
 
 // desliga moto
 motor.desligar();
