@@ -32,11 +32,11 @@ DMPH motor(2, 4, 3);
 ```
 
 ```c++
-// liga motor com passagem de parâmetro 'h' -> Sentido da rotação horária e 100 -> valor da velocidade de rotação.
-motor.ligar('h', 100);
+// liga motor com passagem de parâmetro valor positivo sentido da rotação horária e 100 -> valor da velocidade de rotação.
+motor.ligar(100);
 
-// liga motor com passagem de parâmetro 'a' -> Sentido da rotação antioraria e 100 -> valor da velocidade de rotação.
-motor.ligar('a', 100);
+// liga motor com passagem de parâmetro valor negativo sentido da rotação antihoraria e -100 -> valor da velocidade de rotação.
+motor.ligar(-100);
 
 // desliga moto
 motor.desligar();
