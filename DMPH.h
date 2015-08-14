@@ -27,7 +27,6 @@
   	int pino1;
   	int pino2;
   	int pinoVel;
-  	char orientacao;
   	int velocidade;
 
   public:
@@ -35,10 +34,10 @@
   	DMPH(int pin1, int pin2, int pinVel); 
 
  	// Método ligar, quer recebe o sentido da rotação do motor e o valor da velocidade.
-  	void ligar(char orient, int vel);
+  	void ligar(int vel);
 
  	// Método desliga motor.
-  	void desligar( ); 
+  	void desligar(); 
   };
   
   

@@ -29,26 +29,23 @@
 /**
  * Método ligar - recebe a orientação de rotação do motor (horario ou antiorario) e a velocidade.
  */
- void DMPH::ligar(char orient, int vel){
- 	switch (orient) {
- 		case 'h': // Rotação sentido Horario
+ void DMPH::ligar(int vel){
+ 	if(vel > 0){ //rotação do motor sentido horário.
  		digitalWrite(pino1,HIGH);
  		digitalWrite(pino2,LOW);
  		analogWrite(pinoVel,vel);
- 		break;
-
- 		case 'a': // Rotação sentido AntiHorario
+ 	} 
+ 	else if(vel < 0){ //rotação do motor sentido antihorário.
  		digitalWrite(pino1,LOW);
  		digitalWrite(pino2,HIGH);
  		analogWrite(pinoVel,vel);
- 		break;
  	}
  }
 
 /**
  * Método deligar - deliga o motor.
  */
- void DMPH::desligar( ){
- 		digitalWrite(pino1, LOW);
- 		digitalWrite(pino2, LOW);
+ void DMPH::desligar(){
+ 	digitalWrite(pino1, LOW);
+ 	digitalWrite(pino2, LOW);
  }
