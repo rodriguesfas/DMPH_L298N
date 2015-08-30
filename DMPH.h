@@ -1,14 +1,4 @@
 /**
- * ========================================================================================== 
- * @Software: DMPH_L298N  
- * @Description: Ajuda na implementação de tarefas usando o Driver Motor Ponte H L298N.
- * @Version: 1.0.0 / Data: 09 de agosto de 2015
- * @Developer Rodrigues F. A. S.
- * @Site: rodriguesfas.github.io / E-mail: franciscosouzaacer@gmail.com 
- * ==========================================================================================
- */
-
-/**
  * Diretivas de Compilação - Elas não deixão as declarações/definições da bliblioteca serem inseridas 
  * mais de uma vez em um projeto. 
  */
