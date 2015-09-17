@@ -17,7 +17,6 @@
   	int pino1;
   	int pino2;
   	int pinoVel;
-  	int velocidade;
 
   public:
  	/* Construtor recebe os parâmetros os pinos correspondente a saída. (pin_Motor, pin_Motor, pin_Veloidade_Motor) */
