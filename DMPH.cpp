@@ -19,9 +19,9 @@
 #include "DMPH.h"
 
 /**
- * O construtor DMPH::DMPH(int pin1, int pin2, int pinVel) configura os pinos passados como parâmetro como saída
- * e depois atribui os seus valores às variáveis privadas, de modo que elas possão ser utilizadas pelos métodos
- * das classes futuramente.
+ * O construtor DMPH::DMPH(x, y, z) configura os pinos passados como parâmetro como saída e depois atribui 
+ * os seus valores às variáveis privadas, de modo que elas possão ser utilizadas pelos métodosd as classes
+ * futuramente.
  */
  DMPH::DMPH(int pin1, int pin2, int pinVel){
  	// Configura pinos como saída.
@@ -35,25 +35,23 @@
  }
 
 /**
- * Método ligar - recebe a orientação de rotação do motor (horario ou antiorario) e a velocidade.
+ * Método move - recebe a orientação de rotação do motor (horario ou antiorario) e a velocidade.
  */
- void DMPH::ligar(int vel){
+ void DMPH::move(int vel){
  	if(vel > 0){ //rotação do motor sentido horário.
  		digitalWrite(pino1,HIGH);
  		digitalWrite(pino2,LOW);
  		analogWrite(pinoVel,vel);
+
  	} 
  	else if(vel < 0){ //rotação do motor sentido antihorário.
  		digitalWrite(pino1,LOW);
  		digitalWrite(pino2,HIGH);
  		analogWrite(pinoVel,vel*(-1));
- 	}
- }
 
-/**
- * Método deligar - deliga o motor.
- */
- void DMPH::desligar(){
- 	digitalWrite(pino1, LOW);
- 	digitalWrite(pino2, LOW);
+ 	}else if(vel == 0){ //desligar
+ 		digitalWrite(pino1, LOW);
+ 		digitalWrite(pino2, LOW);
+ 	}
+
  }

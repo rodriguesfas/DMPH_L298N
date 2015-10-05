@@ -5,5 +5,4 @@
 
 DMPH KEYWORD1
 
-ligar KEYWORD2
-desligar KEYWORD2
+move KEYWORD2
