@@ -32,19 +32,19 @@ DMPH motor(2, 4, 3);
 ```
 
 ```c++
-// liga motor com passagem de parâmetro valor positivo sentido da rotação horária e 100 -> valor da velocidade de rotação.
-motor.ligar(100);
+// liga motor passando por parâmetro valor positivo sentido da rotação horária e 100 -> valor da velocidade de rotação.
+motor.move(100);
 
-// liga motor com passagem de parâmetro valor negativo sentido da rotação antihoraria e -100 -> valor da velocidade de rotação.
-motor.ligar(-100);
+// liga motor passando parâmetro valor negativo sentido da rotação antihoraria e -100 -> valor da velocidade de rotação.
+motor.move(-100);
 
-// desliga moto
-motor.desligar();
+// desliga motor passando por parametro o valor zero. 
+motor.move(0);
 ```
 
 ## Exemplo
 Veja um exemplo de como tudo fica mais simples e enxuto:
-https://github.com/rodriguesfas/DMPH_L298N/blob/master/examples/DMPH_L298N_Simples/DMPH_L298N_Simples.ino
+https://github.com/rodriguesfas/DMPH_L298N/blob/master/examples/DMPH_L298N_Single/DMPH_L298N_Single.ino
 
 ## Dicas e avisos
 
