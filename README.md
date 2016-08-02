@@ -1,6 +1,6 @@
 ![DMPHL298N Logo](https://github.com/rodriguesfas/DMPH_L298N/blob/master/extras/logo.png)
 
-Esta Biblioteca foi contruída para facilitar a implementação e minimizar a quantidade de código quando trabalhar com o Driver Ponte H, baseado no chip L298N, construído para controlar cargas indutivas como relés, solenoides, motores DC e motores de passo. Com este Driver Ponte H L298N é possível controlar independentemente a velocidade e rotação de 2 motores DC ou 1 motor de passo.
+Esta Biblioteca foi construída para facilitar a implementação e minimizar a quantidade de código quando trabalhar com o Driver Ponte H, baseado no chip L298N, construído para controlar cargas indutivas como relés, solenoides, motores DC e motores de passo. Com este Driver Ponte H L298N é possível controlar independentemente a velocidade e rotação de 2 motores DC ou 1 motor de passo.
 
 Esse hardware possui terminais parafusáveis para fácil instalação e buracos nas extremidades da placa para fixação.
 
