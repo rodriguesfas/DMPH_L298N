@@ -46,6 +46,9 @@ motor.move(0);
 Veja um exemplo de como tudo fica mais simples e enxuto:
 https://github.com/rodriguesfas/DMPH_L298N/blob/master/examples/DMPH_L298N_Single/DMPH_L298N_Single.ino
 
+## Tutorial
+http://clubedosgeeks.com.br/programacao/arduino/library-driver-motor-ponte-h-l298n-arduino
+
 ## Dicas e avisos
 
 ## Referência Biblioteca
